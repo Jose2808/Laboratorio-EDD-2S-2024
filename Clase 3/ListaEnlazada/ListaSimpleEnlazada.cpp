@@ -16,9 +16,23 @@ listaSimpleEnlazada::~listaSimpleEnlazada(){
     }
 }
 
+int listaSimpleEnlazada::pop(){
+    Nodo *temp;
+    int ret;
+
+    if(primero == nullptr){return -999;}
+
+    temp = primero;
+    ret = temp->getData();
+
+    primero = primero->getSig();
+
+    delete temp;
+    return ret;
+}
+
 void listaSimpleEnlazada::push(int valor){
     Nodo *nuevo_nodo = new Nodo(valor);
-
     if (primero == nullptr){
         primero = nuevo_nodo;
         ultimo = nuevo_nodo;

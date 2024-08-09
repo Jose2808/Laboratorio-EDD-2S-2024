@@ -1,16 +1,19 @@
 #include <iostream>
 
-class Nodo {
+class Nodo{
     private:
         int data;
+        Nodo *prev;
         Nodo *sig;
 
     public:
-        Nodo();
         Nodo(int data);
 
         void setData(int valor);
         void setSig(Nodo* sig);
+        void setPrev(Nodo *prev);
+
         int getData();
-        Nodo* getSig();
+        Nodo* getPrev();   
+        Nodo* getSig();    
 };

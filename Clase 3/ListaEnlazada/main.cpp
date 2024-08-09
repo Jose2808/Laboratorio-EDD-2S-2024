@@ -17,5 +17,9 @@ int main(int argc, char const *argv[])
     l.insert(6, 999);
     l.insert(1500, 999);
     l.print();
+
+    int ret = l.pop();
+    l.print();
+    std::cout << ret << std::endl;
     return 0;
 }

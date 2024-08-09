@@ -12,6 +12,7 @@ class listaSimpleEnlazada {
         void push(int valor);
         void append(int valor);
         void insert(int indice, int valor);
+        int pop();
         void print();
         void graph();
 };

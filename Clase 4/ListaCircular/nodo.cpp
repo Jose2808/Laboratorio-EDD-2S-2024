@@ -1,11 +1,6 @@
-#include "Nodo.h"
+#include "nodo.h"
 
 //Constructores
-Nodo::Nodo(){
-    data = 0;
-    sig = nullptr;
-}
-
 Nodo::Nodo(int data){
     this->data = data;
     sig = nullptr;
