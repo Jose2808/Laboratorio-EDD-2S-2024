@@ -14,6 +14,6 @@ int main(int argc, char const *argv[])
     l.append(2000);
     l.print();
 
-    // l.graph();
+    l.graph();
     return 0;
 }

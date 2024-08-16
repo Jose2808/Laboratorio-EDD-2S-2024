@@ -163,7 +163,7 @@ void ListaCircular::graph(){
     outfile.close();
 
     //Ejecutamos el comando para generar la imagen en base al archivo recién creado
-    int returnCode = system("dot -Tpng ./circularLinkedList.dot -o ./circularLinkedList.png");
+    int returnCode = system("dot -Tpng ./listaCircular.dot -o ./listaCircular.png");
 
     //Mensaje en caso el comando se haya ejecutado de forma correcta o no
     if(returnCode == 0){std::cout << "Command executed successfully." << std::endl;}
