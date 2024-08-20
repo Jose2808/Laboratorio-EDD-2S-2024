@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 
 class Nodo {
     private:

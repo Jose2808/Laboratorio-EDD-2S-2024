@@ -1,0 +1,46 @@
+digraph G {
+    node[shape="box"]
+Nodo0_0[label = "raiz", group = "0"]
+Nodo0_0->Nodo2_0
+Nodo0_0->Nodo2_0[dir = back]
+Nodo0_0->Nodo0_2
+Nodo0_0->Nodo0_2[dir = back]
+Nodo2_0[label = "1", group = "2"]
+Nodo2_0->Nodo4_0
+Nodo2_0->Nodo4_0[dir = back]
+Nodo2_0->Nodo2_2
+Nodo2_0->Nodo2_2[dir = back]
+Nodo4_0[label = "3", group = "4"]
+Nodo4_0->Nodo5_0
+Nodo4_0->Nodo5_0[dir = back]
+Nodo4_0->Nodo4_3
+Nodo4_0->Nodo4_3[dir = back]
+Nodo5_0[label = "4", group = "5"]
+Nodo5_0->Nodo5_5
+Nodo5_0->Nodo5_5[dir = back]
+{rank=same;Nodo0_0;Nodo2_0;Nodo4_0;Nodo5_0}
+Nodo0_2[label = "1", group = "0"]
+Nodo0_2->Nodo2_2
+Nodo0_2->Nodo2_2[dir = back]
+Nodo0_2->Nodo0_3
+Nodo0_2->Nodo0_3[dir = back]
+Nodo2_2[label = "F", group = "2"]
+Nodo2_2->Nodo2_3
+Nodo2_2->Nodo2_3[dir = back]
+{rank=same;Nodo0_2;Nodo2_2}
+Nodo0_3[label = "2", group = "0"]
+Nodo0_3->Nodo2_3
+Nodo0_3->Nodo2_3[dir = back]
+Nodo0_3->Nodo0_5
+Nodo0_3->Nodo0_5[dir = back]
+Nodo2_3[label = "T", group = "2"]
+Nodo2_3->Nodo4_3
+Nodo2_3->Nodo4_3[dir = back]
+Nodo4_3[label = "F", group = "4"]
+{rank=same;Nodo0_3;Nodo2_3;Nodo4_3}
+Nodo0_5[label = "4", group = "0"]
+Nodo0_5->Nodo5_5
+Nodo0_5->Nodo5_5[dir = back]
+Nodo5_5[label = "T", group = "5"]
+{rank=same;Nodo0_5;Nodo5_5}
+}

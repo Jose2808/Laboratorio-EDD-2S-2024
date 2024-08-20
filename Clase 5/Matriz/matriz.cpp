@@ -43,6 +43,76 @@ void Matriz::insert(int i, int j, bool data){
     }
 }
 
+void Matriz::graph(){
+    std::ofstream outfile ("matriz.dot");
+    Nodo *aux_fila = raiz;
+    Nodo *aux_columna;
+    std::string dec_nodo;
+    std::string conexion;
+
+    outfile << "digraph G {" << std::endl;
+    outfile << "    node[shape=\"box\"]" << std::endl;
+    
+    while(aux_fila != nullptr){
+        std::string rank = "{rank=same";
+        aux_columna = aux_fila;
+
+        while(aux_columna != nullptr){
+            std::string i_coord = std::to_string(aux_columna->getI() + 1);
+            std::string j_coord = std::to_string(aux_columna->getJ() + 1);
+            std::string nombre = "Nodo"+i_coord+"_"+j_coord;
+
+            if(aux_columna->getI() == -1 && aux_columna->getJ() == -1){
+                dec_nodo = nombre + "[label = \"raiz\", group = \""+i_coord+"\"]";
+            
+            }else if(aux_columna->getI() == -1){
+                dec_nodo = nombre + "[label = \""+std::to_string(aux_columna->getJ())+"\"";
+                dec_nodo += ", group = \""+i_coord+"\"]";
+            
+            }else if(aux_columna->getJ() == -1){
+                dec_nodo = nombre + "[label = \""+std::to_string(aux_columna->getI())+"\"";
+                dec_nodo += ", group = \""+i_coord+"\"]";
+            
+            }else{
+                dec_nodo = nombre + "[label = \""+(aux_columna->getData() ? "T" : "F")+"\"";
+                dec_nodo += ", group = \""+i_coord+"\"]";
+            }
+
+            outfile << dec_nodo << std::endl;
+
+            if(aux_columna->getDcha() != nullptr){
+                conexion = nombre + "->Nodo"+std::to_string(aux_columna->getDcha()->getI() + 1);
+                conexion += "_"+std::to_string(aux_columna->getDcha()->getJ() + 1);
+
+                outfile << conexion << std::endl;
+                outfile << conexion << "[dir = back]" << std::endl;
+            }
+
+            if(aux_columna->getAbajo() != nullptr){
+                conexion = nombre + "->Nodo"+std::to_string(aux_columna->getAbajo()->getI() + 1);
+                conexion += "_"+std::to_string(aux_columna->getAbajo()->getJ() + 1);
+
+                outfile << conexion << std::endl;
+                outfile << conexion << "[dir = back]" << std::endl;
+            }
+
+            rank+=";"+nombre;
+            aux_columna = aux_columna->getDcha();
+        }
+
+        rank+="}";
+        outfile << rank << std::endl;
+        
+        aux_fila = aux_fila->getAbajo();
+    }
+    outfile << "}" << std::endl;
+    outfile.close();
+    int returnCode = system("dot -Tpng ./matriz.dot -o ./matriz.png");
+
+    if(returnCode == 0){std::cout << "Comando ejecutado exitosamente" << std::endl;}
+    else{std::cout << "Ejecucion del comando fallida" << returnCode << std::endl;}
+}
+
 Nodo* Matriz:: insertarEncabezadoFila(int j){
     Nodo *nuevoEncabezadoFila = new Nodo(-1, j);
     this->insertarEnFila(nuevoEncabezadoFila, this->raiz);

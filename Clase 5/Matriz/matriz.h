@@ -22,4 +22,5 @@ class Matriz {
         void insert(int i, int j, bool data);
         bool existeNodo(Nodo *nuevo);
         void print();
+        void graph();
 };
