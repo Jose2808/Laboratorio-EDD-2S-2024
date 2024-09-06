@@ -1,0 +1,11 @@
+digraph G {
+Nodo0x274806767a0[label = "Daniel"]
+Nodo0x274806767a0->Nodo0x27480677660
+Nodo0x274806767a0->Nodo0x27480676f20
+Nodo0x27480677660[label = "Carlos"]
+Nodo0x27480676f20[label = "Xavier"]
+Nodo0x27480676f20->Nodo0x27480676d60
+Nodo0x27480676f20->Nodo0x27480676ae0
+Nodo0x27480676d60[label = "Francisco"]
+Nodo0x27480676ae0[label = "Zara"]
+}
