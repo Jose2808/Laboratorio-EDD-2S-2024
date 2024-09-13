@@ -12,6 +12,10 @@ void AVL::insert(std::string data){
     this->raiz = insert(this->raiz, data);
 }
 
+void AVL::del(std::string data){
+    this->raiz = del(this->raiz, data);
+}
+
 void AVL::preOrden(){
     preOrden(this->raiz);
 }
@@ -122,6 +126,51 @@ Nodo* AVL::insert(Nodo *raiz, std::string data){
     return raiz;
 }
 
+Nodo* AVL::del(Nodo* raiz, std::string data){
+    if(raiz == nullptr) return raiz;
+    else if(data < raiz->getData()){raiz->setIzq(del(raiz->getIzq(), data));}
+    else if(data > raiz->getData()){raiz->setDrcha(del(raiz->getDrcha(), data));}
+    else{
+        if(raiz->esHoja()){
+            delete raiz;
+            raiz = nullptr;
+        
+        }else if (raiz->tieneUnHijo()){
+            raiz = raiz->obtenerHijoUnico();
+
+        }else if (raiz->tieneDosHijos()){
+            Nodo *temp = obtenerMayorDeMenores(raiz->getIzq());
+            raiz->setData(temp->getData());
+            raiz->setIzq(del(raiz->getIzq(), temp->getData()));
+        }
+    }
+
+    if(raiz == nullptr) return raiz;
+
+    raiz->setAltura(alturaMaxima(obtenerAltura(raiz->getIzq()), obtenerAltura(raiz->getDrcha())) + 1);
+
+    if(obtenerBalance(raiz) > 1){
+        if(obtenerBalance(raiz->getDrcha()) < 0){
+            raiz->setDrcha(rotacionDerecha(raiz->getDrcha()));
+            raiz = rotacionIzquierda(raiz);
+        
+        }else{
+            raiz = rotacionIzquierda(raiz);
+        }
+    } 
+
+    if(obtenerBalance(raiz) < -1){
+        if(obtenerBalance(raiz->getIzq()) > 0){
+            raiz->setIzq(rotacionIzquierda(raiz->getIzq()));
+            raiz = rotacionDerecha(raiz);
+        }else{
+            raiz = rotacionDerecha(raiz);
+        }
+    }
+
+    return raiz; 
+}
+
 Nodo* AVL::rotacionIzquierda(Nodo *raiz){
     Nodo *raizDerecha = raiz->getDrcha();
     Nodo *temp = raizDerecha->getIzq();
@@ -146,6 +195,13 @@ Nodo* AVL::rotacionDerecha(Nodo *raiz){
     raizIzquierda->setAltura(alturaMaxima(obtenerAltura(raizIzquierda->getIzq()), obtenerAltura(raizIzquierda->getDrcha())) + 1);
 
     return raizIzquierda;
+}
+
+Nodo* AVL::obtenerMayorDeMenores(Nodo *raiz){
+    while(raiz->getDrcha() != nullptr){
+        raiz = raiz->getDrcha();
+    }
+    return raiz;
 }
 
 int AVL::obtenerAltura(Nodo *raiz){
