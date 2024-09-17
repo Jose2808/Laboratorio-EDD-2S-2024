@@ -11,12 +11,14 @@ class Nodo{
         Nodo();
         ~Nodo();
 
+        void insertarLlave(Llave *llave);
+
         Llave* getPrimero();
         int getNumeroLlaves();
         bool esHoja();
 
         void setPrimero(Llave *llave);
-        void setNumberoLlaves(int numeroLlaves);
+        void setNumeroLlaves(int numeroLlaves);
         void setHoja(bool hoja);
 };
 
@@ -31,6 +33,8 @@ class Llave{
     public:
         Llave(int data);
         ~Llave();
+
+        bool tieneHijos();
 
         int getData();
         Llave* getPrev();
