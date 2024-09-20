@@ -1,0 +1,99 @@
+# ninja log v6
+12	1002	7485553504190909	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+12	1002	7485553504190909	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+12	1002	7485553504190909	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+12	1002	7485553504190909	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+1010	4147	7485553505559453	CMakeFiles/EjemploQt.dir/EjemploQt_autogen/mocs_compilation.cpp.obj	b226e24f909a4ea0
+1021	4305	7485553505672400	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+1015	4335	7485553505609445	CMakeFiles/EjemploQt.dir/main.cpp.obj	d99a995578febe32
+4335	4751	7485553538816230	EjemploQt.exe	7673004cdb7ba911
+49	328	7485555847630568	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+49	328	7485555847630568	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+49	328	7485555847630568	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+49	328	7485555847630568	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+331	3472	7485555850455395	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+3473	3741	7485555881877599	EjemploQt.exe	7673004cdb7ba911
+48	307	7485559060691831	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+48	307	7485559060691831	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+48	307	7485559060691831	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+48	307	7485559060691831	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+309	4493	7485559063312220	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+4493	4784	7485559105146496	EjemploQt.exe	7673004cdb7ba911
+60	1397	7485563611477812	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+60	1397	7485563611477812	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+60	1397	7485563611477812	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+60	1397	7485563611477812	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+1401	5616	7485563613240753	CMakeFiles/EjemploQt.dir/EjemploQt_autogen/mocs_compilation.cpp.obj	b226e24f909a4ea0
+1410	5645	7485563613336368	CMakeFiles/EjemploQt.dir/main.cpp.obj	d99a995578febe32
+1417	7542	7485563613412160	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+7543	7855	7485563674668412	EjemploQt.exe	7673004cdb7ba911
+43	388	7485568085930363	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+43	388	7485568085930363	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+43	388	7485568085930363	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+43	388	7485568085930363	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+392	5759	7485568089432266	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+5759	6060	7485568143093524	EjemploQt.exe	7673004cdb7ba911
+32	1208	7485569007406901	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+32	1208	7485569007406901	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+32	1208	7485569007406901	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+32	1208	7485569007406901	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+1215	5270	7485569009082664	CMakeFiles/EjemploQt.dir/EjemploQt_autogen/mocs_compilation.cpp.obj	b226e24f909a4ea0
+1222	5354	7485569009152648	CMakeFiles/EjemploQt.dir/main.cpp.obj	d99a995578febe32
+1230	7220	7485569009237660	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+46	2862	7485569775821973	CMakeFiles/EjemploQt.dir/EjemploQt_autogen/mocs_compilation.cpp.obj	b226e24f909a4ea0
+2864	3148	7485569803986693	EjemploQt.exe	7673004cdb7ba911
+47	3049	7485570014710628	CMakeFiles/EjemploQt.dir/EjemploQt_autogen/mocs_compilation.cpp.obj	b226e24f909a4ea0
+3051	3378	7485570044746539	EjemploQt.exe	7673004cdb7ba911
+43	1239	7485578350322352	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+43	1239	7485578350322352	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+43	1239	7485578350322352	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+43	1239	7485578350322352	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+1244	5177	7485578352020899	CMakeFiles/EjemploQt.dir/EjemploQt_autogen/mocs_compilation.cpp.obj	b226e24f909a4ea0
+1252	5258	7485578352100926	CMakeFiles/EjemploQt.dir/main.cpp.obj	d99a995578febe32
+1260	10704	7485578352176304	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+54	2937	7485578647891705	CMakeFiles/EjemploQt.dir/EjemploQt_autogen/mocs_compilation.cpp.obj	b226e24f909a4ea0
+2938	4219	7485578676732113	EjemploQt.exe	7673004cdb7ba911
+51	299	7485579335636638	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+51	299	7485579335636638	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+51	299	7485579335636638	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+51	299	7485579335636638	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+302	8147	7485579338150145	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+8148	9531	7485579416607226	EjemploQt.exe	7673004cdb7ba911
+60	358	7485586537672041	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+60	358	7485586537672041	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+60	358	7485586537672041	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+60	358	7485586537672041	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+361	9046	7485586540678512	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+9047	10652	7485586627538105	EjemploQt.exe	7673004cdb7ba911
+64	356	7485587226243188	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+64	356	7485587226243188	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+64	356	7485587226243188	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+64	356	7485587226243188	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+359	8667	7485587229195345	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+8668	10185	7485587312285008	EjemploQt.exe	7673004cdb7ba911
+60	1270	7485591373439360	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+60	1270	7485591373439360	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+60	1270	7485591373439360	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+60	1270	7485591373439360	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+1274	5311	7485591375132357	CMakeFiles/EjemploQt.dir/EjemploQt_autogen/mocs_compilation.cpp.obj	b226e24f909a4ea0
+1282	5479	7485591375217591	CMakeFiles/EjemploQt.dir/main.cpp.obj	d99a995578febe32
+1290	10695	7485591375287747	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+53	343	7485592136774197	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+53	343	7485592136774197	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+53	343	7485592136774197	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+53	343	7485592136774197	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+346	8165	7485592139693430	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+54	3019	7485592446582124	CMakeFiles/EjemploQt.dir/EjemploQt_autogen/mocs_compilation.cpp.obj	b226e24f909a4ea0
+3020	4675	7485592476237027	EjemploQt.exe	7673004cdb7ba911
+51	345	7485593699162797	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+51	345	7485593699162797	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+51	345	7485593699162797	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+51	345	7485593699162797	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+347	8109	7485593702115989	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+8109	9643	7485593779738723	EjemploQt.exe	7673004cdb7ba911
+57	392	7485595152708405	EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+57	392	7485595152708405	EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+57	392	7485595152708405	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/timestamp	eb16dd1ec208abb0
+57	392	7485595152708405	D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploQt_autogen/mocs_compilation.cpp	eb16dd1ec208abb0
+395	9167	7485595156090097	CMakeFiles/EjemploQt.dir/mainwindow.cpp.obj	f891db29e666afbe
+9167	10704	7485595243813333	EjemploQt.exe	7673004cdb7ba911

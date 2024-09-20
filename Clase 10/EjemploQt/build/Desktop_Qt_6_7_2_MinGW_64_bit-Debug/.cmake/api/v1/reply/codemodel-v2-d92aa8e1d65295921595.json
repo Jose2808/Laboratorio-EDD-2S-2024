@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a107e694bd0325d0ceb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EjemploQt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "EjemploQt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EjemploQt-Debug-39b030c6325cbed5b4a2.json",
+					"name" : "EjemploQt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EjemploQt_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EjemploQt_autogen-Debug-2810ede3e8953d5a07e6.json",
+					"name" : "EjemploQt_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EjemploQt_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EjemploQt_autogen_timestamp_deps-Debug-f0f6636235f6a05fdf2c.json",
+					"name" : "EjemploQt_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+		"source" : "D:/monte/OneDrive/Escritorio/Universidad/Practicas Finales/Estructuras de Datos/Laboratorio-EDD-2S-2024/Clase 10/EjemploQt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
