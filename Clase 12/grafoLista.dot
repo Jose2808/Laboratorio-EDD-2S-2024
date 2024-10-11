@@ -1,0 +1,99 @@
+digraph G {
+node[shape = "box" style = "filled"]
+Nodo1[label = "1" group = "1" fillcolor="lightgray"];
+Nodo1->Nodo2[dir = none];Nodo1->Nodo0x1ad89c21280;
+Nodo0x1ad89c21280[label = "5" fillcolor = "white"];
+Nodo0x1ad89c21280->Nodo0x1ad89c212c0;
+Nodo0x1ad89c212c0[label = "10" fillcolor = "white"];
+Nodo0x1ad89c212c0->Nodo0x1ad89c3cc20;
+Nodo0x1ad89c3cc20[label = "3" fillcolor = "white"];
+{rank=same;Nodo1;Nodo0x1ad89c21280;Nodo0x1ad89c212c0;Nodo0x1ad89c3cc20}
+Nodo2[label = "2" group = "1" fillcolor="lightgray"];
+Nodo2->Nodo3[dir = none];Nodo2->Nodo0x1ad89c3c520;
+Nodo0x1ad89c3c520[label = "3" fillcolor = "white"];
+Nodo0x1ad89c3c520->Nodo0x1ad89c3c940;
+Nodo0x1ad89c3c940[label = "14" fillcolor = "white"];
+Nodo0x1ad89c3c940->Nodo0x1ad89c3c8a0;
+Nodo0x1ad89c3c8a0[label = "6" fillcolor = "white"];
+Nodo0x1ad89c3c8a0->Nodo0x1ad89c3c8c0;
+Nodo0x1ad89c3c8c0[label = "13" fillcolor = "white"];
+{rank=same;Nodo2;Nodo0x1ad89c3c520;Nodo0x1ad89c3c940;Nodo0x1ad89c3c8a0;Nodo0x1ad89c3c8c0}
+Nodo3[label = "3" group = "1" fillcolor="lightgray"];
+Nodo3->Nodo4[dir = none];Nodo3->Nodo0x1ad89c3c980;
+Nodo0x1ad89c3c980[label = "2" fillcolor = "white"];
+Nodo0x1ad89c3c980->Nodo0x1ad89c3c9e0;
+Nodo0x1ad89c3c9e0[label = "1" fillcolor = "white"];
+Nodo0x1ad89c3c9e0->Nodo0x1ad89c3c600;
+Nodo0x1ad89c3c600[label = "9" fillcolor = "white"];
+{rank=same;Nodo3;Nodo0x1ad89c3c980;Nodo0x1ad89c3c9e0;Nodo0x1ad89c3c600}
+Nodo4[label = "4" group = "1" fillcolor="lightgray"];
+Nodo4->Nodo5[dir = none];Nodo4->Nodo0x1ad89c3c840;
+Nodo0x1ad89c3c840[label = "8" fillcolor = "white"];
+Nodo0x1ad89c3c840->Nodo0x1ad89c3c740;
+Nodo0x1ad89c3c740[label = "9" fillcolor = "white"];
+{rank=same;Nodo4;Nodo0x1ad89c3c840;Nodo0x1ad89c3c740}
+Nodo5[label = "5" group = "1" fillcolor="lightgray"];
+Nodo5->Nodo6[dir = none];Nodo5->Nodo0x1ad89c212a0;
+Nodo0x1ad89c212a0[label = "1" fillcolor = "white"];
+Nodo0x1ad89c212a0->Nodo0x1ad89c3cc40;
+Nodo0x1ad89c3cc40[label = "7" fillcolor = "white"];
+{rank=same;Nodo5;Nodo0x1ad89c212a0;Nodo0x1ad89c3cc40}
+Nodo6[label = "6" group = "1" fillcolor="lightgray"];
+Nodo6->Nodo7[dir = none];Nodo6->Nodo0x1ad89c3c620;
+Nodo0x1ad89c3c620[label = "2" fillcolor = "white"];
+Nodo0x1ad89c3c620->Nodo0x1ad89c3c820;
+Nodo0x1ad89c3c820[label = "12" fillcolor = "white"];
+Nodo0x1ad89c3c820->Nodo0x1ad89c3c760;
+Nodo0x1ad89c3c760[label = "10" fillcolor = "white"];
+{rank=same;Nodo6;Nodo0x1ad89c3c620;Nodo0x1ad89c3c820;Nodo0x1ad89c3c760}
+Nodo7[label = "7" group = "1" fillcolor="lightgray"];
+Nodo7->Nodo8[dir = none];Nodo7->Nodo0x1ad89c3c6e0;
+Nodo0x1ad89c3c6e0[label = "5" fillcolor = "white"];
+{rank=same;Nodo7;Nodo0x1ad89c3c6e0}
+Nodo8[label = "8" group = "1" fillcolor="lightgray"];
+Nodo8->Nodo9[dir = none];Nodo8->Nodo0x1ad89c3c6c0;
+Nodo0x1ad89c3c6c0[label = "4" fillcolor = "white"];
+Nodo0x1ad89c3c6c0->Nodo0x1ad89c3c9a0;
+Nodo0x1ad89c3c9a0[label = "11" fillcolor = "white"];
+{rank=same;Nodo8;Nodo0x1ad89c3c6c0;Nodo0x1ad89c3c9a0}
+Nodo9[label = "9" group = "1" fillcolor="lightgray"];
+Nodo9->Nodo10[dir = none];Nodo9->Nodo0x1ad89c3c6a0;
+Nodo0x1ad89c3c6a0[label = "3" fillcolor = "white"];
+Nodo0x1ad89c3c6a0->Nodo0x1ad89c3c780;
+Nodo0x1ad89c3c780[label = "4" fillcolor = "white"];
+Nodo0x1ad89c3c780->Nodo0x1ad89c3c7c0;
+Nodo0x1ad89c3c7c0[label = "12" fillcolor = "white"];
+{rank=same;Nodo9;Nodo0x1ad89c3c6a0;Nodo0x1ad89c3c780;Nodo0x1ad89c3c7c0}
+Nodo10[label = "10" group = "1" fillcolor="lightgray"];
+Nodo10->Nodo11[dir = none];Nodo10->Nodo0x1ad89c212e0;
+Nodo0x1ad89c212e0[label = "1" fillcolor = "white"];
+Nodo0x1ad89c212e0->Nodo0x1ad89c3c560;
+Nodo0x1ad89c3c560[label = "6" fillcolor = "white"];
+{rank=same;Nodo10;Nodo0x1ad89c212e0;Nodo0x1ad89c3c560}
+Nodo11[label = "11" group = "1" fillcolor="lightgray"];
+Nodo11->Nodo12[dir = none];Nodo11->Nodo0x1ad89c3cb00;
+Nodo0x1ad89c3cb00[label = "8" fillcolor = "white"];
+Nodo0x1ad89c3cb00->Nodo0x1ad89c3c7a0;
+Nodo0x1ad89c3c7a0[label = "13" fillcolor = "white"];
+Nodo0x1ad89c3c7a0->Nodo0x1ad89c3ca60;
+Nodo0x1ad89c3ca60[label = "14" fillcolor = "white"];
+{rank=same;Nodo11;Nodo0x1ad89c3cb00;Nodo0x1ad89c3c7a0;Nodo0x1ad89c3ca60}
+Nodo12[label = "12" group = "1" fillcolor="lightgray"];
+Nodo12->Nodo13[dir = none];Nodo12->Nodo0x1ad89c3c700;
+Nodo0x1ad89c3c700[label = "6" fillcolor = "white"];
+Nodo0x1ad89c3c700->Nodo0x1ad89c3ca00;
+Nodo0x1ad89c3ca00[label = "9" fillcolor = "white"];
+{rank=same;Nodo12;Nodo0x1ad89c3c700;Nodo0x1ad89c3ca00}
+Nodo13[label = "13" group = "1" fillcolor="lightgray"];
+Nodo13->Nodo14[dir = none];Nodo13->Nodo0x1ad89c3c9c0;
+Nodo0x1ad89c3c9c0[label = "11" fillcolor = "white"];
+Nodo0x1ad89c3c9c0->Nodo0x1ad89c3c7e0;
+Nodo0x1ad89c3c7e0[label = "2" fillcolor = "white"];
+{rank=same;Nodo13;Nodo0x1ad89c3c9c0;Nodo0x1ad89c3c7e0}
+Nodo14[label = "14" group = "1" fillcolor="lightgray"];
+Nodo14->Nodo0x1ad89c3c8e0;
+Nodo0x1ad89c3c8e0[label = "2" fillcolor = "white"];
+Nodo0x1ad89c3c8e0->Nodo0x1ad89c3c920;
+Nodo0x1ad89c3c920[label = "11" fillcolor = "white"];
+{rank=same;Nodo14;Nodo0x1ad89c3c8e0;Nodo0x1ad89c3c920}
+}
