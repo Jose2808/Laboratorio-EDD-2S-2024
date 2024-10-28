@@ -1,0 +1,100 @@
+digraph Couriers {
+    
+    //Tipo de fuente
+    fontname = "Bitstream Vera Sans"
+    
+    //Tamaño de fuente
+    fontsize = 8
+
+    //Nodos con tipo de fuente establecido, tamaño de fuente
+    //"shape = record" nos permite definir la estructura de los nodos
+    //a través de cierta sintaxis en los labels
+    //"style=filled" para que se rellene con el color que le indiquemos
+    node [fontname = "Bitstream Vera Sans" fontsize = 8 shape = "record" style = filled;]
+    edge [arrowtail = "empty"]
+
+    //Bloque en verde con la data que contiene
+	Bloque1507622901[
+        label = "{
+            No.0
+            |NONCE.31156
+            |DATA:
+            SEDE:10, Alta Verapaz, San Juan Chamelco \l
+            DESTINO:43 Huehuetenango, Malacatancito \l
+            DATETIME:05-05-2022-::21:41:12 \l
+            CLIENTE:Normand Weakley \l
+            MENSAJERO:Donovan Cisar \l\n
+            SEDE:62, Huehuetenango, Soloma \l
+            DESTINO:43 Huehuetenango, Malacatancito \l
+            DATETIME:05-05-2022-::21:41:22 \l
+            CLIENTE:Normand Weakley \l
+            MENSAJERO:Rudolf Littrell \l\n
+            |HASH:0000d955c7420578b9cff97b5992b2a1387cda68162524ff2affeea7afad6dc3
+            |PREVIOUSHASH:0000
+            |ROOTMERKLEHASH:09187b28881d2afeff1fcecebf320ccaf84b959258fdb1158132453c09a38d6f
+        }"
+	    fillcolor = "#99cc99";
+	]	
+    
+    //Bloque en verde con la data que contiene
+    Bloque252872022[
+        label = "{
+            No.1
+            |NONCE.183657
+            |DATA:
+            SEDE:32, Guatemala, Villa Canales \l
+            DESTINO:43 Huehuetenango, Malacatancito \l
+            DATETIME:05-05-2022-::21:41:41 \l
+            CLIENTE:Normand Weakley \l
+            MENSAJERO:Sayer Baxill \l\n
+            SEDE:10, Alta Verapaz, San Juan Chamelco \l
+            DESTINO:49 Huehuetenango, San Mateo IxtatÃ¡n \l
+            DATETIME:05-05-2022-::21:42:43 \l
+            CLIENTE:Gardener Stapele \l
+            MENSAJERO:Donovan Cisar \l\n
+            |HASH:00009405b9c6526dece04c605a1acf769ba87ee08371333cdf0d0b086e3e5e87
+            |PREVIOUSHASH:0000d955c7420578b9cff97b5992b2a1387cda68162524ff2affeea7afad6dc3
+            |ROOTMERKLEHASH:fe1fc7ccfee2ef4bcd3c3edb0e940da62b181da96284eb5a69689e148702ff3d
+        }"
+	    fillcolor = "#99cc99";
+	]	
+    
+    //Bloque en rojo sin data
+    Bloque2053706400[
+        label = "{
+            No.2
+            |NONCE.20564
+            |DATA:
+            |HASH:0000b4e86bc24281ebabe4d17322ef120b6ac9d63fe2b38b953084c853df0b54
+            |PREVIOUSHASH:00009405b9c6526dece04c605a1acf769ba87ee08371333cdf0d0b086e3e5e87
+            |ROOTMERKLEHASH:1bad6b8cf97131fceab8543e81f7757195fbb1d36b376ee994ad1cf17699c464
+        }"
+	    fillcolor = "#fb8684";
+	]	
+
+    //Bloque en rojo sin data
+    Bloque112903163[
+        label = "{
+            No.3
+            |NONCE.280584
+            |DATA:
+            |HASH:000078b56a3d69f521e8983c552a330e0c399c4ab0d2d3a68e2f2597b8dd3ad6
+            |PREVIOUSHASH:0000b4e86bc24281ebabe4d17322ef120b6ac9d63fe2b38b953084c853df0b54
+            |ROOTMERKLEHASH:1bad6b8cf97131fceab8543e81f7757195fbb1d36b376ee994ad1cf17699c464
+        }"
+	    fillcolor = "#fb8684";
+	]	
+    
+    //Bloque en rojo sin data
+    Bloque1008940814[
+        label = "{
+            No.4
+            |NONCE.65385
+            |DATA:
+            |HASH:0000ceb50e91562da1d294757c8926f42a28f4f745d57c50cda007afe0d3fdea
+            |PREVIOUSHASH:000078b56a3d69f521e8983c552a330e0c399c4ab0d2d3a68e2f2597b8dd3ad6
+            |ROOTMERKLEHASH:1bad6b8cf97131fceab8543e81f7757195fbb1d36b376ee994ad1cf17699c464
+        }"
+        fillcolor = "#fb8684";
+    ]
+}
